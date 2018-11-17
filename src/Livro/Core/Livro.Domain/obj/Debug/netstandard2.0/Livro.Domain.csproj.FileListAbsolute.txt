@@ -1,0 +1,9 @@
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\bin\Debug\netstandard2.0\Livro.Domain.deps.json
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\bin\Debug\netstandard2.0\Livro.Domain.dll
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\bin\Debug\netstandard2.0\Livro.Domain.pdb
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.csprojAssemblyReference.cache
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.csproj.CoreCompileInputs.cache
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.AssemblyInfoInputs.cache
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.AssemblyInfo.cs
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.dll
+C:\Git\LivrariaV3\src\Livro\Core\Livro.Domain\obj\Debug\netstandard2.0\Livro.Domain.pdb
