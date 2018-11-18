@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj",
+      "projectUniqueName": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj",
       "projectName": "Livro.Domain",
-      "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj",
+      "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj",
       "packagesPath": "C:\\Users\\Keppel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\obj\\",
+      "outputPath": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

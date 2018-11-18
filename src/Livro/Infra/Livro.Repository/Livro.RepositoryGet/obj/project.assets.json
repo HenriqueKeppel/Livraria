@@ -237,11 +237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\LivrariaV3\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj",
+      "projectUniqueName": "C:\\Git\\Livraria\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj",
       "projectName": "Livro.RepositoryGet",
-      "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj",
+      "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj",
       "packagesPath": "C:\\Users\\Keppel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\obj\\",
+      "outputPath": "C:\\Git\\Livraria\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -260,8 +260,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj": {
-              "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj"
+            "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj"
             }
           }
         }

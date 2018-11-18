@@ -10,6 +10,6 @@ namespace Livro.Domain.Models
         public string publisher {get;set;}
         public int publishedDate {get;set;}
         public string description {get;set;}
-        public IndustryIdentifiers industryIdentifiers {get;set;}
+        public IEnumerable<IndustryIdentifiers> industryIdentifiers {get;set;}
     }
 }

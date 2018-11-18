@@ -10,3 +10,15 @@ C:\Git\LivrariaV3\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug
 C:\Git\LivrariaV3\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.csproj.CopyComplete
 C:\Git\LivrariaV3\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.dll
 C:\Git\LivrariaV3\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.pdb
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\bin\Debug\netstandard2.0\Livro.RepositoryGet.deps.json
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\bin\Debug\netstandard2.0\Livro.RepositoryGet.dll
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\bin\Debug\netstandard2.0\Livro.RepositoryGet.pdb
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\bin\Debug\netstandard2.0\Livro.Domain.dll
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\bin\Debug\netstandard2.0\Livro.Domain.pdb
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.AssemblyInfo.cs
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.csproj.CopyComplete
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.dll
+C:\Git\Livraria\src\Livro\Infra\Livro.Repository\Livro.RepositoryGet\obj\Debug\netstandard2.0\Livro.RepositoryGet.pdb

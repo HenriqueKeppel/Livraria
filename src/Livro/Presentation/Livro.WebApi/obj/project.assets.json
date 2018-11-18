@@ -12564,11 +12564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\LivrariaV3\\src\\Livro\\Presentation\\Livro.WebApi\\Livro.WebApi.csproj",
+      "projectUniqueName": "C:\\Git\\Livraria\\src\\Livro\\Presentation\\Livro.WebApi\\Livro.WebApi.csproj",
       "projectName": "Livro.WebApi",
-      "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Presentation\\Livro.WebApi\\Livro.WebApi.csproj",
+      "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Presentation\\Livro.WebApi\\Livro.WebApi.csproj",
       "packagesPath": "C:\\Users\\Keppel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Presentation\\Livro.WebApi\\obj\\",
+      "outputPath": "C:\\Git\\Livraria\\src\\Livro\\Presentation\\Livro.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12587,14 +12587,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Application\\Livro.Service.csproj": {
-              "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Application\\Livro.Service.csproj"
+            "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Application\\Livro.Service.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Application\\Livro.Service.csproj"
             },
-            "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj": {
-              "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj"
+            "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Core\\Livro.Domain\\Livro.Domain.csproj"
             },
-            "C:\\Git\\LivrariaV3\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj": {
-              "projectPath": "C:\\Git\\LivrariaV3\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj"
+            "C:\\Git\\Livraria\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livro\\Infra\\Livro.Repository\\Livro.RepositoryGet\\Livro.RepositoryGet.csproj"
             }
           }
         }

@@ -9,6 +9,5 @@ namespace Livro.Domain.Models
         public string etag {get;set;}
         public string selfLink {get;set;}
         public VolumeInfo volumeInfo {get;set;}
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Livro.Domain.Interfaces;
 using Livro.Domain.Models;
 using System.Threading.Tasks;
@@ -14,9 +15,12 @@ namespace Livro.Service
         {
             _RepositoryGet = repositoryGet != null ? repositoryGet : throw new NullReferenceException("RepositoryGet");
         }
-        public async Task<LivroItem> Get(BookGetRequest request)
+        public async Task<LivroItem> ObterLivro(string isbn)
         {
             LivroItem retorno = null;
+            BookGetRequest request = new BookGetRequest();
+
+            request.isbn = isbn;
 
             var retornoRepository = await _RepositoryGet.Get(request);
 
@@ -30,7 +34,7 @@ namespace Livro.Service
                 {
                     retorno = new LivroItem
                     {
-                        Isbn = livro.volumeInfo.industryIdentifiers.identifier,
+                        Isbn = ((List<IndustryIdentifiers>)livro.volumeInfo.industryIdentifiers)[0].identifier,
                         Titulo = livro.volumeInfo.title,
                         Editora = livro.volumeInfo.publisher,
                         Descricao = livro.volumeInfo.description,
