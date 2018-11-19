@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Livro.WebApi
+namespace FavoritosWebApi
 {
     public class Program
     {
@@ -20,7 +20,7 @@ namespace Livro.WebApi
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:5000")
+                .UseUrls("http://localhost:5001")
                 .Build();
     }
 }
