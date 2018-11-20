@@ -3805,7 +3805,8 @@
       },
       "Favoritos.Repository/1.0.0": {
         "dependencies": {
-          "Favorito.Domain": "1.0.0"
+          "Favorito.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "Favoritos.Repository.dll": {}

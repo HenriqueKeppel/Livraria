@@ -4735,7 +4735,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Favorito.Domain": "1.0.0"
+          "Favorito.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
           "bin/placeholder/Favoritos.Repository.dll": {}

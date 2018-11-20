@@ -1,5 +1,5 @@
 {
-  "ProjectFilePath": "c:\\Git\\Livraria\\src\\Favoritos\\Core\\Favoritos.Domain\\Favorito.Domain.csproj",
+  "ProjectFilePath": "c:\\Git\\Livraria\\src\\Favoritos\\Core\\Favoritos.Application\\Favoritos.Application.csproj",
   "TargetFramework": "netstandard2.0",
   "TagHelpers": [],
   "Configuration": {
