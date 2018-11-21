@@ -1,2 +1,131 @@
 {"Titulo":"Dare Devil - Season 3","Isbn":"654321","IdUsuario":"1","DataInclusao":"2018-11-19T23:01:09.567Z"}
-{"Titulo":"Dare Devil - Season 4","Isbn":"123456","IdUsuario":"1","DataInclusao":"2018-11-19T23:01:09.567Z"}
+{"Titulo":"Star Wars","Isbn":"987654","IdUsuario":"1","DataInclusao":"2018-11-21T20:57:51.341Z"}
+
+-- remover
+
+projeto de testes deve referenciar apenas o service
+xunit
+xunit.runner.visualstudio???
+Moq
+
+cod de criação da classe de testes
+public class CallbackServiceTests
+    {
+        #region  [ Variáveis locais ]
+
+        private readonly ServiceProvider serviceProvider;
+        private readonly ServiceProvider serviceProvider2;
+
+        #endregion
+
+        #region [ Configurações ]
+
+        private void ConfigurarLog(IServiceCollection services)
+        {
+            services.AddLogging(c =>
+            {
+                c.AddDebug();
+            });
+        }
+
+        #endregion
+
+        #region [ Construtores ]
+
+        /*
+        * Transient objects are always different; a new instance is provided to every controller and every service.
+        * Scoped objects are the same within a request, but different across different requests
+        * Singleton objects are the same for every object and every request(regardless of whether an instance is provided in ConfigureServices)
+        */
+
+        public CallbackServiceTests()
+        {
+            var smsService = new Mock<ISmsService>();
+            var smsService_HabilitaSmsInformativoFalse = new Mock<ISmsService>();
+            var smsRepositoryWriteOnly = new Mock<ISmsRepositoryWriteOnly>();
+            var smsRepositoryReadOnly = new Mock<ISmsRepositoryReadOnly>();
+            var gerenciadorSmsAdapter = new Mock<IGerenciadorSmsAdapter>();
+            var emailService = new Mock<IEmailService>();
+            var emailRepositoryReadOnly = new Mock<IEmailRepositoryReadOnly>();
+
+            IServiceCollection services = new ServiceCollection();
+
+            ConfigurarLog(services);
+
+            ConfigurarSmsService(smsService);
+            ConfigurarSmsRepositoryWriteOnly(smsRepositoryWriteOnly);
+            ConfigurarSmsRepositoryReadOnly(smsRepositoryReadOnly);
+            ConfigurarEmailRepositoryReadOnly(emailRepositoryReadOnly);
+            ConfigurarEmailService(emailService);
+
+            services.AddTransient(t => smsService.Object);
+            services.AddTransient(t => smsRepositoryWriteOnly.Object);
+            services.AddTransient(t => smsRepositoryReadOnly.Object);
+            services.AddTransient(t => gerenciadorSmsAdapter.Object);
+            services.AddTransient(t => emailService.Object);
+            services.AddTransient(t => emailRepositoryReadOnly.Object);
+
+            services.AddTransient<ApplicationConfiguration>(c => new ApplicationConfiguration
+            {
+                HabilitaSmsInformativo = true,
+                LoginFuncaoSistema = "recompra"
+            });
+
+            services.AddTransient<ICallbackService, CallbackService>();
+
+            serviceProvider = services.BuildServiceProvider();
+
+            // Testes com configurações 
+            IServiceCollection services2 = new ServiceCollection();
+
+            ConfigurarLog(services2);
+
+            ConfigurarSmsService(smsService);
+            ConfigurarSmsRepositoryWriteOnly(smsRepositoryWriteOnly);
+            ConfigurarSmsRepositoryReadOnly(smsRepositoryReadOnly);
+
+            services2.AddTransient(t => smsService.Object);
+            services2.AddTransient(t => smsRepositoryWriteOnly.Object);
+            services2.AddTransient(t => smsRepositoryReadOnly.Object);
+            services2.AddTransient(t => gerenciadorSmsAdapter.Object);
+            services2.AddTransient(t => emailService.Object);
+            services2.AddTransient(t => emailRepositoryReadOnly.Object);
+
+            services2.AddTransient<ApplicationConfiguration>(c => new ApplicationConfiguration
+            {
+                HabilitaSmsInformativo = false,
+                LoginFuncaoSistema = "recompra"
+            });
+
+            services2.AddTransient<ICallbackService, CallbackService>();
+
+            serviceProvider2 = services2.BuildServiceProvider();
+        }
+    ----cod de criação de repository
+    private void ConfigurarSmsService(Mock<ISmsService> smsService)
+        {
+            #region ExecutaCallbackEntregaEnviarSmsFalha
+            smsService
+                .Setup(s => s.EnviarSms(It.Is<EnvioSms>(x => x.Celular == 988888888)))
+                .ThrowsAsync(new EnviarSmsException().AddError(EnviarSmsError.FalhaAoEnviarSms));
+            #endregion
+
+    ---- cod de execucao de testes
+    [Fact]
+        public void ExecutaCallbackRespostaObterSimuladorControleSmsFalha()
+        {
+            var callbackService = serviceProvider.GetService<ICallbackService>();
+
+            RespostaInfobip request = new RespostaInfobip()
+            {
+                EnvioId = new Guid("88BE4B85-0B06-4E95-A135-2D924189CCD4"),
+                ContagemSms = 1,
+                DataRecebida = DateTime.Now.ToShortDateString()
+            };
+
+            Exception ex = Assert.ThrowsAny<Exception>(() => callbackService.ExecutaCallbackResposta(request).Result);
+
+            Assert.NotNull(ex);
+            Assert.NotNull(ex.InnerException);
+            Assert.IsType<CallbackRespostaException>(ex.InnerException);
+        }

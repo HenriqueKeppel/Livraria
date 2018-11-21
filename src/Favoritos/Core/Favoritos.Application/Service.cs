@@ -19,14 +19,22 @@ namespace Favoritos.Application
         {
             return await _favoritoRepository.Adicionar(item);
         }
+
         public async Task<bool> Remover(string isbn)
         {
             return await _favoritoRepository.Remover(isbn);
         }
+
         public async Task<Favorito> Obter(string isbn)
         {
             return await _favoritoRepository.Obter(isbn);
         }
+
+        public async Task<Favorito> ObterPorTitulo(string titulo)
+        {
+            return await _favoritoRepository.ObterPorTitulo(titulo);
+        }
+
         public async Task<IEnumerable<Favorito>> Obter()
         {
             return await _favoritoRepository.Obter();
