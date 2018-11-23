@@ -1,15 +1,19 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 using Microsoft.Extensions.DependencyInjection;
-using Favoritos.Domain.Interface;
+using Favoritos.Domain.Interfaces;
+using Favoritos.Domain.Models;
 using Favoritos.Application;
+using Moq;
+using System.Linq;
 
 namespace Favoritos.Tests
 {
-    private readonly ServiceProvider serviceProvider;
-
     public class FavoritosApplicationTests
     {
+        private readonly ServiceProvider serviceProvider;
+
         public FavoritosApplicationTests()
         {
             IServiceCollection services = new ServiceCollection();
@@ -18,6 +22,7 @@ namespace Favoritos.Tests
             // Configura o repositorio
             configurarFavoritoRepository(favoritoRepository);
 
+            services.AddTransient(t => favoritoRepository.Object);
             services.AddTransient<IFavoritoService, Service>();
             serviceProvider = services.BuildServiceProvider();
         }
@@ -28,27 +33,87 @@ namespace Favoritos.Tests
 
             Favorito itemMock = new Favorito
             {
-                Titulo = "teste",
+                Titulo = "TestSucess",
                 Isbn = "123456",
-                IdUsuario = 1,
+                IdUsuario = "1",
                 DataInclusao = DateTime.Now
             };
 
             listaMock.Add(itemMock);
 
             favoritoRepository
-                .Setup(s => s.ObterPorTitulo("teste"))
+                .Setup(s => s.ObterPorTitulo("TestSucess"))
+                .ReturnsAsync(itemMock);
+
+            favoritoRepository
+                .Setup(s => s.Obter())
                 .ReturnsAsync(listaMock);
+
+            favoritoRepository
+                .Setup(s => s.Remover("123456"))
+                .ReturnsAsync(true);
+
+            favoritoRepository
+                .Setup(s => s.Adicionar(It.IsAny<Favorito>()))
+                .ReturnsAsync(true);
         }
 
         [Fact]
-        public void Test1()
+        public void ObterPorTituloTestSucess()
+        {
+            var appService = serviceProvider.GetService<IFavoritoService>();
+            var listaRetorno = appService.ObterPorTitulo("TestSucess");
+            Assert.True(listaRetorno != null);
+        }
+
+        [Fact]
+        public void ObterPorTituloTestFail()
+        {
+            var appService = serviceProvider.GetService<IFavoritoService>();
+            var listaRetorno = appService.ObterPorTitulo("TestFail");
+            Assert.False(listaRetorno == null);
+        }
+
+        [Fact]
+        public void ObterPorIsbnTestSucess()
+        {
+            var appService = serviceProvider.GetService<IFavoritoService>();
+            var listaRetorno = appService.ObterPorTitulo("123456");
+            Assert.True(listaRetorno != null);
+        }
+
+        [Fact]
+        public void ObterPorIsbnTestFail()
+        {
+            var appService = serviceProvider.GetService<IFavoritoService>();
+            var listaRetorno = appService.ObterPorTitulo("654321");
+            Assert.False(listaRetorno == null);
+        }
+        
+        [Fact]
+        public void ObterTestSucess()
+        {
+            var appService = serviceProvider.GetService<IFavoritoService>();
+            var listaRetorno = appService.Obter().Result;
+            Assert.True(listaRetorno.ToList().Count > 0);
+        }
+
+        [Fact]
+        public void AdicionarTestSucess()
         {
             var appService = serviceProvider.GetService<IFavoritoService>();
 
-            var listaRetorno = await appService.ObterPorTitulo("teste");
+            Favorito itemMockAdicionar = new Favorito
+            {
+                Titulo = "TestAdicionar",
+                Isbn = "789456",
+                IdUsuario = "1",
+                DataInclusao = DateTime.Now
+            };
 
-            Assert.True(listaRetorno.Count > 0);
+            var retorno = appService.Adicionar(itemMockAdicionar).Result;
+
+            Assert.True(retorno);
         }
     }
 }
