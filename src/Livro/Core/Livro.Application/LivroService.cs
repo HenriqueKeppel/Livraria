@@ -44,5 +44,35 @@ namespace Livro.Service
             }
             return retorno;
         }
+
+        public async Task<LivroItem> ObterLivroPorTitulo(string titulo)
+        {
+            LivroItem retorno = null;
+            BookGetRequest request = new BookGetRequest();
+
+            request.intitle = titulo;
+
+            var retornoRepository = await _RepositoryGet.GetByTitle(request);
+
+            if (retornoRepository != null)
+            {
+                // TODO: criar um mapper depois
+                // Tratar mais de um registro
+                var livro = retornoRepository.items.FirstOrDefault();
+
+                if (livro != null)
+                {
+                    retorno = new LivroItem
+                    {
+                        Isbn = ((List<IndustryIdentifiers>)livro.volumeInfo.industryIdentifiers)[0].identifier,
+                        Titulo = livro.volumeInfo.title,
+                        Editora = livro.volumeInfo.publisher,
+                        Descricao = livro.volumeInfo.description,
+                        Autores = livro.volumeInfo.authors
+                    };
+                }
+            }
+            return retorno;
+        }
     }
 }

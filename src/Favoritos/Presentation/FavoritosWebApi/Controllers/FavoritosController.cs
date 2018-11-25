@@ -25,13 +25,10 @@ namespace FavoritosWebApi.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("GetByFilter")]
-        public async Task<Favorito> Get([FromQuery]string isbn, string titulo)
+        [HttpGet("{isbn}")]
+        public async Task<Favorito> Get(string isbn)
         {
-            if (!string.IsNullOrEmpty(isbn))
-                return await _FavoritoService.Obter(isbn);
-            else
-                return await _FavoritoService.ObterPorTitulo(titulo);
+            return await _FavoritoService.Obter(isbn);
         }
 
         // POST api/values

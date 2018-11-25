@@ -1,0 +1,12 @@
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.AssemblyInfo.cs
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\bin\Debug\netstandard2.0\Criticas.Application.deps.json
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\bin\Debug\netstandard2.0\Criticas.Application.dll
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\bin\Debug\netstandard2.0\Criticas.Application.pdb
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\bin\Debug\netstandard2.0\Criticas.Domain.dll
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\bin\Debug\netstandard2.0\Criticas.Domain.pdb
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.csproj.CopyComplete
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.dll
+C:\Git\Livraria\src\Criticas\Core\Criticas.Application\obj\Debug\netstandard2.0\Criticas.Application.pdb

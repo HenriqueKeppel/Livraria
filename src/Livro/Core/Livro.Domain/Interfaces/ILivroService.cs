@@ -7,5 +7,7 @@ namespace Livro.Domain.Interfaces
     public interface ILivroService
     {
         Task<LivroItem> ObterLivro(string isbn);
+
+        Task<LivroItem> ObterLivroPorTitulo(string titulo);
     }
 }

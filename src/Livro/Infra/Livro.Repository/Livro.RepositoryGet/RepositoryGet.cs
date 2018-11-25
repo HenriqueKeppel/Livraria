@@ -29,5 +29,24 @@ namespace Livro.RepositoryGet
             }
             return retorno;
         }
+
+        public async Task<BookGetResponse> GetByTitle(BookGetRequest request)
+        {
+            BookGetResponse retorno = null;
+            var uri = new Uri(string.Format("{0}title:{1}", url, request.intitle));
+
+            using (var client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(uri);
+
+                if(response.IsSuccessStatusCode)
+                {
+                    // Retornou com sucesso
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    retorno = JsonConvert.DeserializeObject<BookGetResponse>(responseString);
+                }
+            }
+            return retorno;
+        }
     }
 }

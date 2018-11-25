@@ -46,11 +46,6 @@ namespace Favoritos.Repository
             return _virtualRepository.Where(x => x.Isbn == isbn).FirstOrDefault();
         }
 
-        public async Task<Favorito> ObterPorTitulo(string titulo)
-        {
-            return _virtualRepository.Where(x => x.Titulo == titulo).FirstOrDefault();
-        }
-
         public async Task<IEnumerable<Favorito>> Obter()
         {
             return _virtualRepository;
@@ -66,14 +61,6 @@ namespace Favoritos.Repository
                 }
             }
         }
-
-        // private void WriteInFile(string line)
-        // {
-        //     using (StreamWriter fileWriter = new StreamWriter(_virtualRepositoryFile))
-        //     {
-        //         fileWriter.WriteLine(line);
-        //     }
-        // }
 
         private void ReadFile()
         {

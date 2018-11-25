@@ -1,0 +1,9 @@
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\bin\Debug\netstandard2.0\Criticas.Domain.deps.json
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\bin\Debug\netstandard2.0\Criticas.Domain.dll
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\bin\Debug\netstandard2.0\Criticas.Domain.pdb
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.AssemblyInfo.cs
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.dll
+C:\Git\Livraria\src\Criticas\Core\Criticas.Domain\obj\Debug\netstandard2.0\Criticas.Domain.pdb

@@ -30,11 +30,6 @@ namespace Favoritos.Application
             return await _favoritoRepository.Obter(isbn);
         }
 
-        public async Task<Favorito> ObterPorTitulo(string titulo)
-        {
-            return await _favoritoRepository.ObterPorTitulo(titulo);
-        }
-
         public async Task<IEnumerable<Favorito>> Obter()
         {
             return await _favoritoRepository.Obter();
