@@ -1,0 +1,14 @@
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Repository.deps.json
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Repository.dll
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Repository.pdb
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Application.dll
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Domain.dll
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Application.pdb
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\bin\Debug\netstandard2.0\Reputacoes.Domain.pdb
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.AssemblyInfo.cs
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.csproj.CopyComplete
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.dll
+C:\Git\Livraria\src\Reputacoes\Infra\Reputacoes.Repository\obj\Debug\netstandard2.0\Reputacoes.Repository.pdb

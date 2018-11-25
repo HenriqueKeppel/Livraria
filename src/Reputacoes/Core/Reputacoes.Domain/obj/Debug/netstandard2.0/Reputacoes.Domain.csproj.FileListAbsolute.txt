@@ -1,0 +1,9 @@
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\bin\Debug\netstandard2.0\Reputacoes.Domain.deps.json
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\bin\Debug\netstandard2.0\Reputacoes.Domain.dll
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\bin\Debug\netstandard2.0\Reputacoes.Domain.pdb
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.AssemblyInfo.cs
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.dll
+C:\Git\Livraria\src\Reputacoes\Core\Reputacoes.Domain\obj\Debug\netstandard2.0\Reputacoes.Domain.pdb
