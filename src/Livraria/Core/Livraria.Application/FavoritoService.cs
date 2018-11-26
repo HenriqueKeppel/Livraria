@@ -16,19 +16,19 @@ namespace Livraria.Application
 
         public async Task<Favorito> Obter()
         {
-            return await _favoritoAdapter.Obter();
+            return await _favoritoAdapter.Get();
         }
         public async Task<Favorito> Obter(string isbn)
         {
-            return await _favoritoAdapter.Obter(isbn);
+            return await _favoritoAdapter.Get(isbn);
         }
         public async Task Adicionar(Favorito item)
         {
-            await _favoritoAdapter.Adicionar(item);
+            await _favoritoAdapter.Post(item);
         }
         public async Task Remover(string isbn)
         {
-            await _favoritoAdapter.Remover(isbn);
+            await _favoritoAdapter.Delete(isbn);
         }
     }
 }

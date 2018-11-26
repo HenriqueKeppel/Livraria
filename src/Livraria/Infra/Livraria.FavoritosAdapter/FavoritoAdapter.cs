@@ -12,12 +12,12 @@ namespace Livraria.FavoritosAdapter
     {
         private string url = "http://localhost:5001/Favoritos/v1/api";
 
-        public async Task<Favorito> Obter()
+        public async Task<Favorito> Get()
         {
             throw new NotImplementedException();
         }
 
-        public async Task<Favorito> Obter(string isbn)
+        public async Task<Favorito> Get(string isbn)
         {
             Favorito retorno = null;
             var uri = new Uri(string.Format("{0}/Favoritos/{1}", url, isbn));
@@ -36,7 +36,7 @@ namespace Livraria.FavoritosAdapter
             return retorno;
         }
 
-        public async Task<bool> Adicionar(Favorito item)
+        public async Task<bool> Post(Favorito item)
         {
             var uri = new Uri(string.Format("{0}/Favoritos/", url));
 
@@ -55,7 +55,7 @@ namespace Livraria.FavoritosAdapter
             return false;
         }
 
-        public async Task<bool> Remover(string isbn)
+        public async Task<bool> Delete(string isbn)
         {
             var uri = new Uri(string.Format("{0}/Favoritos/{1}", url, isbn));
 

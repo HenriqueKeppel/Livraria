@@ -6,9 +6,9 @@ namespace Livraria.Domain.Interfaces
 {
     public interface IFavoritosAdapter
     {
-        Task<Favorito> Obter();
-        Task<Favorito> Obter(string isbn);
-        Task<bool> Adicionar(Favorito item);
-        Task<bool> Remover(string isbn);
+        Task<Favorito> Get();
+        Task<Favorito> Get(string isbn);
+        Task<bool> Post(Favorito item);
+        Task<bool> Delete(string isbn);
     }
 }

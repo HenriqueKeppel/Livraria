@@ -29,26 +29,25 @@ namespace LivrariaWebApi.Controllers
             _favoritoService = favoritoService != null ? favoritoService : throw new ArgumentNullException();
         }
 
-        // [HttpGet]
-        // public async Task<IEnumerable<<Livro>> Get()
-        // {
-        //     Livro retorno = null;
-        //     List<Favorito> favorito = _favoritoService.Obter().Result;
+         [HttpGet]
+         public async Task<IEnumerable<Livro>> Get()
+        {
+            List<Livro> retorno = new List<Livro>();
+            List<Favorito> listaFavorito = _favoritoService.Obter().Result;
 
-        //     if (favorito != null)
-        //     {
-        //         retorno = _livroService.Obter(favorito.Isbn).Result;
+            foreach (var item in listaFavorito)
+            {
+                Livro itemLivro = _livroService.Obter(item.Isbn).Result;
 
-        //         // if (retorno != null)
-        //         // {
-        //         //     TODO: obter outros dados
-        //         // }
-        //     }
-        //     return retorno;
-        // }
+                // TODO: obter os outros dados
+
+                retorto.Add(itemLivro);
+            }
+            return retorno;
+        }
 
         [HttpGet("{isbn}")]
-        public async Task<Livro> GetFavoritoPorIsbn(string isbn)
+        public async Task<Livro> Get(string isbn)
         {
             Livro retorno = null;
             Favorito favorito = _favoritoService.Obter(isbn).Result;
@@ -63,6 +62,18 @@ namespace LivrariaWebApi.Controllers
                 // }
             }
             return retorno;
+        }
+
+        [HttpPost]
+        public async Task<bool> Post(Favorito favorito)
+        {
+            return _favoritoService.Adicionar(favorito);
+        }
+
+        [HttpDelete("{id}/{isbn}")]
+        public async Task<bool> Delete(int id, string isbn)
+        {
+            return _favoritoService.Remover(id, isbn);
         }
     }
 }
