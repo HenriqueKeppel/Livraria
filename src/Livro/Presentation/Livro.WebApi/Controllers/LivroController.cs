@@ -28,29 +28,14 @@ namespace Livro.WebApi.Controllers
             return _livroService.ObterLivro(isbn);
         }
 
-        // GET api/values/5
-        // [HttpGet("{id}")]
-        // public string Get(int id)
-        // {
-        //     return "value";
-        // }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
+        // GET api/values
+        [HttpGet("titulo/{titulo}")]
+        public Task<LivroItem> GetByTitulo(string titulo)
         {
-        }
+            if (string.IsNullOrEmpty(titulo))
+                throw new ArgumentNullException("Titulo não passado!");
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return _livroService.ObterLivroPorTitulo(titulo);
         }
     }
 }

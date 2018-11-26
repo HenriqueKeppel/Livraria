@@ -1,2 +1,3 @@
-{"Titulo":"Dare Devil - Season 3","Isbn":"654321","IdUsuario":"1","DataInclusao":"2018-11-19T23:01:09.567Z"}
-{"Titulo":"Star Wars","Isbn":"987654","IdUsuario":"1","DataInclusao":"2018-11-21T20:57:51.341Z"}
+{"Isbn":"654321","IdUsuario":"1","DataInclusao":"2018-11-19T23:01:09.567Z"}
+{"Isbn":"987654","IdUsuario":"1","DataInclusao":"2018-11-21T20:57:51.341Z"}
+{"Isbn":"0553819224","IdUsuario":"1","DataInclusao":"2018-11-26T01:19:36.832Z"}

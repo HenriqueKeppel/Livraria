@@ -1,0 +1,12 @@
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.AssemblyInfo.cs
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.deps.json
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.dll
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.pdb
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.csproj.CopyComplete
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.dll
+C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.pdb

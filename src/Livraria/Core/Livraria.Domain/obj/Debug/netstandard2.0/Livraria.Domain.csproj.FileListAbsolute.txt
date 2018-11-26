@@ -1,0 +1,9 @@
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.deps.json
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.csprojAssemblyReference.cache
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.csproj.CoreCompileInputs.cache
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.AssemblyInfoInputs.cache
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.AssemblyInfo.cs
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.pdb
