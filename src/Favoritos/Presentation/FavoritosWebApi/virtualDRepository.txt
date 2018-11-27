@@ -1,3 +1,4 @@
-{"Isbn":"654321","IdUsuario":"1","DataInclusao":"2018-11-19T23:01:09.567Z"}
-{"Isbn":"987654","IdUsuario":"1","DataInclusao":"2018-11-21T20:57:51.341Z"}
-{"Isbn":"0553819224","IdUsuario":"1","DataInclusao":"2018-11-26T01:19:36.832Z"}
+{"Isbn":"123458","Titulo":"teste2","IdUsuario":"string","DataInclusao":"2018-11-27T02:49:12.345Z"}
+{"Isbn":"654789","Titulo":"teste5","IdUsuario":"string","DataInclusao":"2018-11-27T02:49:12.345Z"}
+{"Isbn":"258965","Titulo":"teste5","IdUsuario":"string","DataInclusao":"2018-11-27T02:49:12.345Z"}
+{"Isbn":"0553819224","Titulo":"The Grand Design","IdUsuario":"string","DataInclusao":"2018-11-27T02:49:12.345Z"}

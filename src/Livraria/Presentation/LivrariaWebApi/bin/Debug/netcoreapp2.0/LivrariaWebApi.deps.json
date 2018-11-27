@@ -24,8 +24,10 @@
       "LivrariaWebApi/1.0.0": {
         "dependencies": {
           "Livraria.Application": "1.0.0",
+          "Livraria.CriticasAdapter": "1.0.0",
           "Livraria.Domain": "1.0.0",
           "Livraria.FavoritosAdapter": "1.0.0",
+          "Livraria.ReputacoesAdapter": "1.0.0",
           "LivrosAdapter": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.NETCore.App": "2.0.0",
@@ -3795,6 +3797,18 @@
           "Livraria.Application.dll": {}
         }
       },
+      "Livraria.CriticasAdapter/1.0.0": {
+        "dependencies": {
+          "Livraria.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "Livraria.CriticasAdapter.dll": {}
+        },
+        "compile": {
+          "Livraria.CriticasAdapter.dll": {}
+        }
+      },
       "Livraria.Domain/1.0.0": {
         "runtime": {
           "Livraria.Domain.dll": {}
@@ -3813,6 +3827,18 @@
         },
         "compile": {
           "Livraria.FavoritosAdapter.dll": {}
+        }
+      },
+      "Livraria.ReputacoesAdapter/1.0.0": {
+        "dependencies": {
+          "Livraria.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "Livraria.ReputacoesAdapter.dll": {}
+        },
+        "compile": {
+          "Livraria.ReputacoesAdapter.dll": {}
         }
       },
       "LivrosAdapter/1.0.0": {
@@ -6018,12 +6044,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Livraria.CriticasAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Livraria.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Livraria.FavoritosAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Livraria.ReputacoesAdapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -34,5 +34,10 @@ namespace Favoritos.Application
         {
             return await _favoritoRepository.Obter();
         }
+
+        public async Task<IEnumerable<Favorito>> ObterPorTitulo(string titulo)
+        {
+            return await _favoritoRepository.ObterPorTitulo(titulo);
+        }
     }
 }

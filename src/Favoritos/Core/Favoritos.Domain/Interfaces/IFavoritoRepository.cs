@@ -11,5 +11,6 @@ namespace Favoritos.Domain.Interfaces
         Task<bool> Remover(string isbn);
         Task<Favorito> Obter(string isbn);
         Task<IEnumerable<Favorito>> Obter();
+        Task<IEnumerable<Favorito>> ObterPorTitulo(string titulo);
     }
 }

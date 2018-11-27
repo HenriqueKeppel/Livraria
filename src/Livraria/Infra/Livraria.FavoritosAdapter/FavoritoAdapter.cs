@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Livraria.Domain.Interfaces;
 using Livraria.Domain.Models;
 using System.Threading.Tasks;
@@ -12,9 +13,23 @@ namespace Livraria.FavoritosAdapter
     {
         private string url = "http://localhost:5001/Favoritos/v1/api";
 
-        public async Task<Favorito> Get()
+        public async Task<IEnumerable<Favorito>> Get()
         {
-            throw new NotImplementedException();
+            List<Favorito> retorno = null;
+            var uri = new Uri(string.Format("{0}/Favoritos/", url));
+
+            using (var client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(uri);
+
+                if(response.IsSuccessStatusCode)
+                {
+                    // Retornou com sucesso
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    retorno = JsonConvert.DeserializeObject<List<Favorito>>(responseString);
+                }
+            }
+            return retorno;
         }
 
         public async Task<Favorito> Get(string isbn)
@@ -31,6 +46,25 @@ namespace Livraria.FavoritosAdapter
                     // Retornou com sucesso
                     var responseString = await response.Content.ReadAsStringAsync();
                     retorno = JsonConvert.DeserializeObject<Favorito>(responseString);
+                }
+            }
+            return retorno;
+        }
+
+        public async Task<IEnumerable<Favorito>> GetByTitle(string titulo)
+        {
+            List<Favorito> retorno = null;
+            var uri = new Uri(string.Format("{0}/Favoritos/titulo/{1}", url, titulo));
+
+            using (var client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(uri);
+
+                if(response.IsSuccessStatusCode)
+                {
+                    // Retornou com sucesso
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    retorno = JsonConvert.DeserializeObject<List<Favorito>>(responseString);
                 }
             }
             return retorno;
@@ -55,9 +89,9 @@ namespace Livraria.FavoritosAdapter
             return false;
         }
 
-        public async Task<bool> Delete(string isbn)
+        public async Task<bool> Delete(int id, string isbn)
         {
-            var uri = new Uri(string.Format("{0}/Favoritos/{1}", url, isbn));
+            var uri = new Uri(string.Format("{0}/Favoritos/{1}/{2}", url, id, isbn));
 
             using (var client = new HttpClient())
             {

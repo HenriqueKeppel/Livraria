@@ -46,6 +46,11 @@ namespace Favoritos.Repository
             return _virtualRepository.Where(x => x.Isbn == isbn).FirstOrDefault();
         }
 
+        public async Task<IEnumerable<Favorito>> ObterPorTitulo(string titulo)
+        {
+            return _virtualRepository.Where(x => x.Titulo == titulo);
+        }
+
         public async Task<IEnumerable<Favorito>> Obter()
         {
             return _virtualRepository;

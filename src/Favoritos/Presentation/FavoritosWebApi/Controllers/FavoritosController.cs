@@ -31,6 +31,12 @@ namespace FavoritosWebApi.Controllers
             return await _FavoritoService.Obter(isbn);
         }
 
+        [HttpGet("titulo/{titulo}")]
+        public async Task<IEnumerable<Favorito>> GetByTitle(string titulo)
+        {
+            return await _FavoritoService.ObterPorTitulo(titulo);
+        }
+
         // POST api/values
         [HttpPost]
         public async Task Post([FromBody]Favorito item)

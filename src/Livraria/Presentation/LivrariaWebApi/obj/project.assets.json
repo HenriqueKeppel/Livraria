@@ -4721,6 +4721,20 @@
           "bin/placeholder/Livraria.Application.dll": {}
         }
       },
+      "Livraria.CriticasAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Livraria.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Livraria.CriticasAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Livraria.CriticasAdapter.dll": {}
+        }
+      },
       "Livraria.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4743,6 +4757,20 @@
         },
         "runtime": {
           "bin/placeholder/Livraria.FavoritosAdapter.dll": {}
+        }
+      },
+      "Livraria.ReputacoesAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Livraria.Domain": "1.0.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Livraria.ReputacoesAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Livraria.ReputacoesAdapter.dll": {}
         }
       },
       "LivrosAdapter/1.0.0": {
@@ -12550,6 +12578,11 @@
       "path": "../../Core/Livraria.Application/Livraria.Application.csproj",
       "msbuildProject": "../../Core/Livraria.Application/Livraria.Application.csproj"
     },
+    "Livraria.CriticasAdapter/1.0.0": {
+      "type": "project",
+      "path": "../../Infra/Livraria.CriticasAdapter/Livraria.CriticasAdapter.csproj",
+      "msbuildProject": "../../Infra/Livraria.CriticasAdapter/Livraria.CriticasAdapter.csproj"
+    },
     "Livraria.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/Livraria.Domain/Livraria.Domain.csproj",
@@ -12560,6 +12593,11 @@
       "path": "../../Infra/Livraria.FavoritosAdapter/Livraria.FavoritosAdapter.csproj",
       "msbuildProject": "../../Infra/Livraria.FavoritosAdapter/Livraria.FavoritosAdapter.csproj"
     },
+    "Livraria.ReputacoesAdapter/1.0.0": {
+      "type": "project",
+      "path": "../../Infra/Livraria.ReputacoesAdapter/Livraria.ReputacoesAdapter.csproj",
+      "msbuildProject": "../../Infra/Livraria.ReputacoesAdapter/Livraria.ReputacoesAdapter.csproj"
+    },
     "LivrosAdapter/1.0.0": {
       "type": "project",
       "path": "../../Infra/LivrosAdapter/LivrosAdapter.csproj",
@@ -12569,8 +12607,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Livraria.Application >= 1.0.0",
+      "Livraria.CriticasAdapter >= 1.0.0",
       "Livraria.Domain >= 1.0.0",
       "Livraria.FavoritosAdapter >= 1.0.0",
+      "Livraria.ReputacoesAdapter >= 1.0.0",
       "LivrosAdapter >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -12613,8 +12653,14 @@
             "C:\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj": {
               "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj"
             },
+            "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.CriticasAdapter\\Livraria.CriticasAdapter.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.CriticasAdapter\\Livraria.CriticasAdapter.csproj"
+            },
             "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.FavoritosAdapter\\Livraria.FavoritosAdapter.csproj": {
               "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.FavoritosAdapter\\Livraria.FavoritosAdapter.csproj"
+            },
+            "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.ReputacoesAdapter\\Livraria.ReputacoesAdapter.csproj": {
+              "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Infra\\Livraria.ReputacoesAdapter\\Livraria.ReputacoesAdapter.csproj"
             },
             "C:\\Git\\Livraria\\src\\Livraria\\Infra\\LivrosAdapter\\LivrosAdapter.csproj": {
               "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Infra\\LivrosAdapter\\LivrosAdapter.csproj"

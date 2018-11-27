@@ -18,3 +18,7 @@ C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\obj\Debug\netcoreapp2.0
 C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\obj\Debug\netcoreapp2.0\LivrariaWebApi.pdb
 C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.FavoritosAdapter.dll
 C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.FavoritosAdapter.pdb
+C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.CriticasAdapter.dll
+C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.ReputacoesAdapter.dll
+C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.CriticasAdapter.pdb
+C:\Git\Livraria\src\Livraria\Presentation\LivrariaWebApi\bin\Debug\netcoreapp2.0\Livraria.ReputacoesAdapter.pdb

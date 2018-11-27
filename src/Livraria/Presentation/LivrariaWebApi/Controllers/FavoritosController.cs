@@ -22,58 +22,107 @@ namespace LivrariaWebApi.Controllers
     {
         private ILivroService _livroService;
         private IFavoritoService _favoritoService;
+        private ICriticaService _criticaService;
+        private IReputacaoService _reputacaoService;
 
-        public FavoritosController(ILivroService livroService, IFavoritoService favoritoService)
+        public FavoritosController(ILivroService livroService, 
+                                IFavoritoService favoritoService,
+                                ICriticaService criticaService,
+                                IReputacaoService reputacaoService)
         {
             _livroService = livroService != null ? livroService : throw new ArgumentNullException();
             _favoritoService = favoritoService != null ? favoritoService : throw new ArgumentNullException();
+            _criticaService = criticaService != null ? criticaService : throw new ArgumentNullException();
+            _reputacaoService = reputacaoService != null ? reputacaoService : throw new ArgumentNullException();
         }
 
-         [HttpGet]
-         public async Task<IEnumerable<Livro>> Get()
+        [HttpGet]
+        public async Task<IEnumerable<Livro>> Get()
         {
-            List<Livro> retorno = new List<Livro>();
-            List<Favorito> listaFavorito = _favoritoService.Obter().Result;
+            List<Livro> listaLivro = new List<Livro>();
+            IEnumerable<Favorito> listaFavorito = await _favoritoService.Obter();
 
-            foreach (var item in listaFavorito)
+            foreach (var favorito in listaFavorito)
             {
-                Livro itemLivro = _livroService.Obter(item.Isbn).Result;
+                IEnumerable<Critica> listaCriticas = null;
+                IEnumerable<Reputacao> listaReputacao = null;
+                Livro livro = await _livroService.Obter(favorito.Isbn);
 
-                // TODO: obter os outros dados
+                if (livro != null)
+                 {
+                    // obter todas as criticas deste livro
+                    listaCriticas = await _criticaService.Obter(favorito.Isbn);
+                    listaReputacao = await _reputacaoService.Obter(favorito.Isbn);
 
-                retorto.Add(itemLivro);
+                    livro.Criticas = listaCriticas;
+                    livro.Reputacoes = listaReputacao;
+                 }
+                listaLivro.Add(livro);
             }
-            return retorno;
+            return listaLivro;
         }
 
         [HttpGet("{isbn}")]
         public async Task<Livro> Get(string isbn)
         {
-            Livro retorno = null;
-            Favorito favorito = _favoritoService.Obter(isbn).Result;
+            Livro livro = null;
+            IEnumerable<Critica> listaCriticas = null;
+            IEnumerable<Reputacao> listaReputacao = null;
+            Favorito favorito = await _favoritoService.Obter(isbn);
 
             if (favorito != null)
             {
-                retorno = _livroService.Obter(favorito.Isbn).Result;
+                livro = await _livroService.Obter(favorito.Isbn);
 
-                // if (retorno != null)
-                // {
-                //     TODO: obter outros dados
-                // }
+                 if (livro != null)
+                 {
+                    // obter todas as criticas deste livro
+                    listaCriticas = await _criticaService.Obter(favorito.Isbn);
+                    listaReputacao = await _reputacaoService.Obter(favorito.Isbn);
+
+                    livro.Criticas = listaCriticas;
+                    livro.Reputacoes = listaReputacao;
+                 }
             }
-            return retorno;
+            return livro;
+        }
+
+        [HttpGet("titulo/{titulo}")]
+        public async Task<IEnumerable<Livro>> GetByTitulo(string titulo)
+        {
+            List<Livro> listaLivro = new List<Livro>();
+            IEnumerable<Favorito> listaFavorito = await _favoritoService.ObterPortitulo(titulo);
+
+            foreach (var favorito in listaFavorito)
+            {
+                IEnumerable<Critica> listaCriticas = null;
+                IEnumerable<Reputacao> listaReputacao = null;
+                Livro livro = await _livroService.Obter(favorito.Isbn);
+
+                if (livro != null)
+                 {
+                    // obter todas as criticas deste livro
+                    listaCriticas = await _criticaService.Obter(favorito.Isbn);
+                    listaReputacao = await _reputacaoService.Obter(favorito.Isbn);
+
+                    livro.Criticas = listaCriticas;
+                    livro.Reputacoes = listaReputacao;
+                 }
+                listaLivro.Add(livro);
+            }
+            return listaLivro;
         }
 
         [HttpPost]
-        public async Task<bool> Post(Favorito favorito)
+        public async Task Post(Favorito favorito)
         {
-            return _favoritoService.Adicionar(favorito);
+            await _favoritoService.Adicionar(favorito);
         }
 
         [HttpDelete("{id}/{isbn}")]
-        public async Task<bool> Delete(int id, string isbn)
+        public async Task Delete(int id, string isbn)
         {
-            return _favoritoService.Remover(id, isbn);
+            await _favoritoService.Remover(id, isbn);
         }
     }
 }

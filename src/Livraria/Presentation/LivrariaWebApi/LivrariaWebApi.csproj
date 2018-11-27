@@ -22,6 +22,8 @@
     <ProjectReference Include="..\..\Core\Livraria.Domain\Livraria.Domain.csproj" />
     <ProjectReference Include="..\..\Infra\LivrosAdapter\LivrosAdapter.csproj" />
     <ProjectReference Include="..\..\Infra\Livraria.FavoritosAdapter\Livraria.FavoritosAdapter.csproj" />
+    <ProjectReference Include="..\..\Infra\Livraria.CriticasAdapter\Livraria.CriticasAdapter.csproj" />
+    <ProjectReference Include="..\..\Infra\Livraria.ReputacoesAdapter\Livraria.ReputacoesAdapter.csproj" />
   </ItemGroup>
 
 </Project>
