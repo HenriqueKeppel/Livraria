@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandar
 C:\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.csproj.CopyComplete
 C:\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.dll
 C:\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandard2.0\Livraria.CriticasAdapter.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandard2.0\Livraria.CriticasAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandard2.0\Livraria.CriticasAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.CriticasAdapter\obj\Debug\netstandard2.0\Livraria.CriticasAdapter.pdb

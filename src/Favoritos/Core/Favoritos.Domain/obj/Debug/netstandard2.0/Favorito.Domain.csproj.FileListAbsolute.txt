@@ -11,3 +11,11 @@ C:\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Fav
 C:\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.AssemblyInfo.cs
 C:\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.dll
 C:\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\bin\Debug\netstandard2.0\Favorito.Domain.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\bin\Debug\netstandard2.0\Favorito.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\bin\Debug\netstandard2.0\Favorito.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Core\Favoritos.Domain\obj\Debug\netstandard2.0\Favorito.Domain.pdb

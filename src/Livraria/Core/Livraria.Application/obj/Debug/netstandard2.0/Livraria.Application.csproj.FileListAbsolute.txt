@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Livraria\core\Livraria.Application\obj\Debug\netstandard2.0\
 C:\Git\Livraria\src\Livraria\core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.csproj.CopyComplete
 C:\Git\Livraria\src\Livraria\core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.dll
 C:\Git\Livraria\src\Livraria\core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\bin\Debug\netstandard2.0\Livraria.Application.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\bin\Debug\netstandard2.0\Livraria.Application.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\bin\Debug\netstandard2.0\Livraria.Application.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Application\obj\Debug\netstandard2.0\Livraria.Application.pdb

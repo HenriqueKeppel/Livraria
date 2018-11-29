@@ -20,3 +20,13 @@ C:\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.As
 C:\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.AssemblyInfo.cs
 C:\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.dll
 C:\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\bin\Debug\netcoreapp2.0\GatewayApi.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\bin\Debug\netcoreapp2.0\GatewayApi.runtimeconfig.json
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\bin\Debug\netcoreapp2.0\GatewayApi.runtimeconfig.dev.json
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\bin\Debug\netcoreapp2.0\GatewayApi.dll
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\bin\Debug\netcoreapp2.0\GatewayApi.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.dll
+C:\Users\416459\Documents\Git\Livraria\src\Gateway\src\GatewayApi\obj\Debug\netcoreapp2.0\GatewayApi.pdb

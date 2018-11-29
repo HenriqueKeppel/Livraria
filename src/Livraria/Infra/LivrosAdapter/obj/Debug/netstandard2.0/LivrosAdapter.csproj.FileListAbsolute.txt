@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\Livrar
 C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.csproj.CopyComplete
 C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.dll
 C:\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\LivrosAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\LivrosAdapter\obj\Debug\netstandard2.0\LivrosAdapter.pdb

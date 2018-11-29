@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.
 C:\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.csproj.CopyComplete
 C:\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.dll
 C:\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.0\Favoritos.Repository.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.0\Favoritos.Repository.dll
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.0\Favoritos.Repository.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.0\Favorito.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\bin\Debug\netstandard2.0\Favorito.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.dll
+C:\Users\416459\Documents\Git\Livraria\src\Favoritos\Infra\Favoritos.Repository\obj\Debug\netstandard2.0\Favoritos.Repository.pdb

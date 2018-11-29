@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstanda
 C:\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.csproj.CopyComplete
 C:\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.dll
 C:\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstandard2.0\Livraria.FavoritosAdapter.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstandard2.0\Livraria.FavoritosAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstandard2.0\Livraria.FavoritosAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.FavoritosAdapter\obj\Debug\netstandard2.0\Livraria.FavoritosAdapter.pdb

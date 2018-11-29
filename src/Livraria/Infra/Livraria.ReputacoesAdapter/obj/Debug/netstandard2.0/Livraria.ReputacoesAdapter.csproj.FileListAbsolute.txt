@@ -10,3 +10,13 @@ C:\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstand
 C:\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.csproj.CopyComplete
 C:\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.dll
 C:\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstandard2.0\Livraria.ReputacoesAdapter.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstandard2.0\Livraria.ReputacoesAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstandard2.0\Livraria.ReputacoesAdapter.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Infra\Livraria.ReputacoesAdapter\obj\Debug\netstandard2.0\Livraria.ReputacoesAdapter.pdb

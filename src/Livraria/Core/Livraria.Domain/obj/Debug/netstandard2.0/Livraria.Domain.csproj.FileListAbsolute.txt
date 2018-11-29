@@ -7,3 +7,11 @@ C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livra
 C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.AssemblyInfo.cs
 C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.dll
 C:\Git\Livraria\src\Livraria\core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.deps.json
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\bin\Debug\netstandard2.0\Livraria.Domain.pdb
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.csproj.CoreCompileInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.AssemblyInfoInputs.cache
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.AssemblyInfo.cs
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.dll
+C:\Users\416459\Documents\Git\Livraria\src\Livraria\Core\Livraria.Domain\obj\Debug\netstandard2.0\Livraria.Domain.pdb

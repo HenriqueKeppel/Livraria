@@ -12,6 +12,18 @@
             "UpstreamPathTemplate": "/Criticas/{catchAll}"
         },
         {
+            "DownstreamPathTemplate": "/Favoritoswebapi/v1/Favoritos/",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5001
+                    }
+                ],
+            "UpstreamPathTemplate": "/Favoritos/",
+            "UpstreamHttpMethod": "GET"
+        },
+        {
             "DownstreamPathTemplate": "/Favoritoswebapi/v1/Favoritos/{catchAll}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
