@@ -1,0 +1,51 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/Criticaswebapi/v1/Criticas/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5002
+                    }
+                ],
+            "UpstreamPathTemplate": "/Criticas/{catchAll}"
+        },
+        {
+            "DownstreamPathTemplate": "/Favoritoswebapi/v1/Favoritos/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5001
+                    }
+                ],
+            "UpstreamPathTemplate": "/Favoritos/{catchAll}"
+        },
+        {
+            "DownstreamPathTemplate": "/Reputacoeswebapi/v1/Reputacoes/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5003
+                    }
+                ],
+            "UpstreamPathTemplate": "/Reputacoes/{catchAll}"
+        },
+        {
+            "DownstreamPathTemplate": "/Livrowebapi/v1/Livro/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5000
+                    }
+                ],
+            "UpstreamPathTemplate": "/Livro/{catchAll}"
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:7000"
+    }
+}

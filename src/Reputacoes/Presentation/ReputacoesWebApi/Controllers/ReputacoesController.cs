@@ -8,7 +8,7 @@ using Reputacoes.Domain.Models;
 
 namespace ReputacoesWebApi.Controllers
 {
-    [Route("Reputacoes/v1/api/[controller]")]
+    [Route("Reputacoeswebapi/v1/[controller]")]
     public class ReputacoesController : Controller
     {
         private IReputacaoService _reputacaoService;

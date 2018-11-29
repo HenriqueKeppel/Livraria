@@ -10,7 +10,7 @@ namespace LivrosAdapter
 {
     public class LivroAdapter : ILivroAdapter
     {
-        private string url = "http://localhost:5000/Livro/v1/api/Livro";
+        private string url = "http://localhost:7000/Livro";
         public async Task<Livro> Obter(string isbn)
         {
             Livro retorno = null;

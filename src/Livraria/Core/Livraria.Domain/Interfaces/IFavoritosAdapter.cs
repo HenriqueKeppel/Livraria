@@ -11,6 +11,6 @@ namespace Livraria.Domain.Interfaces
         Task<Favorito> Get(string isbn);
         Task<IEnumerable<Favorito>> GetByTitle(string titulo);
         Task<bool> Post(Favorito item);
-        Task<bool> Delete(int id, string isbn);
+        Task<bool> Delete(string isbn);
     }
 }

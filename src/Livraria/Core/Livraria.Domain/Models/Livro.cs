@@ -8,7 +8,7 @@ namespace Livraria.Domain.Models
         public string Isbn {get;set;}
         public string Titulo {get;set;}
         public string Editora {get;set;}
-        public int DataPublicacao {get;set;}
+        public string DataPublicacao {get;set;}
         public string Descricao {get;set;}
         public IEnumerable<string> Autores {get;set;}
         public IEnumerable<Critica> Criticas {get;set;}

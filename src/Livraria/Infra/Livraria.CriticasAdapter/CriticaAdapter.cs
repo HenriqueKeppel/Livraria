@@ -11,12 +11,12 @@ namespace Livraria.CriticasAdapter
 {
     public class CriticaAdapter : ICriticasAdapter
     {
-        private string url = "http://localhost:5002/Criticas/v1/api";
+        private string url = "http://localhost:7000/Criticas";
 
         public async Task<IEnumerable<Critica>> Get(string isbn)
         {
             IEnumerable<Critica> retorno = null;
-            var uri = new Uri(string.Format("{0}/Criticas/{1}", url, isbn));
+            var uri = new Uri(string.Format("{0}/{1}", url, isbn));
 
             using (var client = new HttpClient())
             {
@@ -34,7 +34,7 @@ namespace Livraria.CriticasAdapter
 
         public async Task Post(Critica item)
         {
-            var uri = new Uri(string.Format("{0}/Criticas/", url));
+            var uri = new Uri(string.Format("{0}", url));
 
             using (var cliente = new HttpClient())
             {
@@ -50,7 +50,7 @@ namespace Livraria.CriticasAdapter
 
         public async Task<bool> Delete(string isbn, int id)
         {
-            var uri = new Uri(string.Format("{0}/Criticas/{1}/{2}", url, isbn, id));
+            var uri = new Uri(string.Format("{0}/{1}/{2}", url, isbn, id));
 
             using (var client = new HttpClient())
             {

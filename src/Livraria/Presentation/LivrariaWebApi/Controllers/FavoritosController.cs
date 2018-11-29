@@ -17,7 +17,7 @@ namespace LivrariaWebApi.Controllers
         controlador.
      */
 
-    [Route("Livraria/v1/api/[controller]")]
+    [Route("Livrariawebapi/v1/[controller]")]
     public class FavoritosController : Controller
     {
         private ILivroService _livroService;
@@ -114,15 +114,15 @@ namespace LivrariaWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task Post(Favorito favorito)
+        public async Task<bool> Post([FromBody]Favorito favorito)
         {
-            await _favoritoService.Adicionar(favorito);
+            return await _favoritoService.Adicionar(favorito);
         }
 
-        [HttpDelete("{id}/{isbn}")]
-        public async Task Delete(int id, string isbn)
+        [HttpDelete("{isbn}")]
+        public async Task Delete(string isbn)
         {
-            await _favoritoService.Remover(id, isbn);
+            await _favoritoService.Remover(isbn);
         }
     }
 }

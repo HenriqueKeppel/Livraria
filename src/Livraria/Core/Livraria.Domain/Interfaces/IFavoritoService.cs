@@ -10,7 +10,7 @@ namespace Livraria.Domain.Interfaces
         Task<IEnumerable<Favorito>> Obter();
         Task<Favorito> Obter(string isbn);
         Task<IEnumerable<Favorito>> ObterPortitulo(string titulo);
-        Task Adicionar(Favorito item);
-        Task Remover(int id, string isbn);
+        Task<bool> Adicionar(Favorito item);
+        Task Remover(string isbn);
     }
 }

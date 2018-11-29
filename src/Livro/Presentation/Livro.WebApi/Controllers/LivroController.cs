@@ -8,7 +8,7 @@ using Livro.Domain.Models;
 
 namespace Livro.WebApi.Controllers
 {
-    [Route("Livro/v1/api/[controller]")]
+    [Route("Livrowebapi/v1/[controller]")]
     public class LivroController : Controller
     {
         private ILivroService _livroService;

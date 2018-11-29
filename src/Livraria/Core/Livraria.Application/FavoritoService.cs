@@ -27,13 +27,13 @@ namespace Livraria.Application
         {
             return await _favoritoAdapter.GetByTitle(titulo);
         }
-        public async Task Adicionar(Favorito item)
+        public async Task<bool> Adicionar(Favorito item)
         {
-            await _favoritoAdapter.Post(item);
+            return await _favoritoAdapter.Post(item);
         }
-        public async Task Remover(int id, string isbn)
+        public async Task Remover(string isbn)
         {
-            await _favoritoAdapter.Delete(id, isbn);
+            await _favoritoAdapter.Delete(isbn);
         }
     }
 }

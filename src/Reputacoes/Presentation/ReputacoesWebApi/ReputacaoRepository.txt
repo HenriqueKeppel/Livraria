@@ -1,2 +1,1 @@
-{"Id":2,"Isbn":"654321","Autor":"keppel","Nota":5}
-{"Id":4,"Isbn":"654321","Autor":"keppel","Nota":1}
+{"Id":1,"Isbn":"9788580631029","Autor":"keppel","Nota":5}

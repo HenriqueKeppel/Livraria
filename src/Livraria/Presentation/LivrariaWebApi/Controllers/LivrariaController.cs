@@ -14,7 +14,7 @@ namespace LivrariaWebApi.Controllers
         assim como as chamadas individuais de manipulação de cada uma.
      */
 
-    [Route("Livraria/v1/api/[controller]")]
+    [Route("Livrariawebapi/v1/[controller]")]
     public class LivrariaController : Controller
     {
         private ILivroService _livroService;

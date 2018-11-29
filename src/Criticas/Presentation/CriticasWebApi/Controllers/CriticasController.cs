@@ -8,7 +8,7 @@ using Criticas.Domain.Models;
 
 namespace CriticasWebApi.Controllers
 {
-    [Route("Criticas/v1/api/[controller]")]
+    [Route("Criticaswebapi/v1/[controller]")]
     public class CriticasController : Controller
     {
         private ICriticaService _criticaService;

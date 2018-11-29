@@ -8,7 +8,7 @@ using Favoritos.Domain.Models;
 
 namespace FavoritosWebApi.Controllers
 {
-    [Route("Favoritos/v1/api/[controller]")]
+    [Route("Favoritoswebapi/v1/[controller]")]
     public class FavoritosController : Controller
     {
         private IFavoritoService _FavoritoService;

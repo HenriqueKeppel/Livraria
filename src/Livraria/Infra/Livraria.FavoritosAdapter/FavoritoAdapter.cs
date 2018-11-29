@@ -11,12 +11,12 @@ namespace Livraria.FavoritosAdapter
 {
     public class FavoritoAdapter : IFavoritosAdapter
     {
-        private string url = "http://localhost:5001/Favoritos/v1/api";
+        private string url = "http://localhost:7000/Favoritos";
 
         public async Task<IEnumerable<Favorito>> Get()
         {
             List<Favorito> retorno = null;
-            var uri = new Uri(string.Format("{0}/Favoritos/", url));
+            var uri = new Uri(string.Format("{0}", url));
 
             using (var client = new HttpClient())
             {
@@ -35,7 +35,7 @@ namespace Livraria.FavoritosAdapter
         public async Task<Favorito> Get(string isbn)
         {
             Favorito retorno = null;
-            var uri = new Uri(string.Format("{0}/Favoritos/{1}", url, isbn));
+            var uri = new Uri(string.Format("{0}/{1}", url, isbn));
 
             using (var client = new HttpClient())
             {
@@ -54,7 +54,7 @@ namespace Livraria.FavoritosAdapter
         public async Task<IEnumerable<Favorito>> GetByTitle(string titulo)
         {
             List<Favorito> retorno = null;
-            var uri = new Uri(string.Format("{0}/Favoritos/titulo/{1}", url, titulo));
+            var uri = new Uri(string.Format("{0}/titulo/{1}", url, titulo));
 
             using (var client = new HttpClient())
             {
@@ -72,7 +72,7 @@ namespace Livraria.FavoritosAdapter
 
         public async Task<bool> Post(Favorito item)
         {
-            var uri = new Uri(string.Format("{0}/Favoritos/", url));
+            var uri = new Uri(string.Format("{0}", url));
 
             using (var cliente = new HttpClient())
             {
@@ -89,9 +89,9 @@ namespace Livraria.FavoritosAdapter
             return false;
         }
 
-        public async Task<bool> Delete(int id, string isbn)
+        public async Task<bool> Delete(string isbn)
         {
-            var uri = new Uri(string.Format("{0}/Favoritos/{1}/{2}", url, id, isbn));
+            var uri = new Uri(string.Format("{0}/{1}", url, isbn));
 
             using (var client = new HttpClient())
             {

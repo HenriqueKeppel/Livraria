@@ -7,6 +7,5 @@ namespace Favoritos.Domain.Models
         public string Isbn {get;set;}
         public string Titulo {get;set;}
         public string IdUsuario {get;set;}
-        public DateTime DataInclusao {get;set;}
     }
 }
