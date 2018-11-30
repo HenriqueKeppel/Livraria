@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -42,10 +42,10 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -166,34 +166,34 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.0"
+      "NETStandard.Library >= 2.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\416459\\.nuget\\packages\\": {},
+    "C:\\Users\\Keppel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\416459\\Documents\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj",
+      "projectUniqueName": "C:\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj",
       "projectName": "Livraria.Domain",
-      "projectPath": "C:\\Users\\416459\\Documents\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj",
-      "packagesPath": "C:\\Users\\416459\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\416459\\Documents\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\obj\\",
+      "projectPath": "C:\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\Livraria.Domain.csproj",
+      "packagesPath": "C:\\Users\\Keppel\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\Livraria\\src\\Livraria\\Core\\Livraria.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\416459\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Keppel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -220,7 +220,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.1, )",
             "autoReferenced": true
           }
         },

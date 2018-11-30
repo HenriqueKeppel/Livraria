@@ -1,6 +1,18 @@
 {
     "ReRoutes": [
         {
+            "DownstreamPathTemplate": "/Criticaswebapi/v1/Criticas/",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5002
+                    }
+                ],
+            "UpstreamPathTemplate": "/Criticas/",
+            "UpstreamHttpMethod": "POST"
+        },
+        {
             "DownstreamPathTemplate": "/Criticaswebapi/v1/Criticas/{catchAll}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
@@ -10,7 +22,7 @@
                     }
                 ],
             "UpstreamPathTemplate": "/Criticas/{catchAll}"
-        },
+        },        
         {
             "DownstreamPathTemplate": "/Favoritoswebapi/v1/Favoritos/",
             "DownstreamScheme": "http",
@@ -22,7 +34,7 @@
                 ],
             "UpstreamPathTemplate": "/Favoritos/",
             "UpstreamHttpMethod": "GET"
-        },
+        },                
         {
             "DownstreamPathTemplate": "/Favoritoswebapi/v1/Favoritos/{catchAll}",
             "DownstreamScheme": "http",
@@ -34,6 +46,18 @@
                 ],
             "UpstreamPathTemplate": "/Favoritos/{catchAll}"
         },
+        {
+            "DownstreamPathTemplate": "/Reputacoeswebapi/v1/Reputacoes/",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5003
+                    }
+                ],
+            "UpstreamPathTemplate": "/Reputacoes/",
+            "UpstreamHttpMethod": ["POST", "DELETE"]
+        },        
         {
             "DownstreamPathTemplate": "/Reputacoeswebapi/v1/Reputacoes/{catchAll}",
             "DownstreamScheme": "http",

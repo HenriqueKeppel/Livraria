@@ -1,2 +1,1 @@
-{"Id":1,"Isbn":"9780553819229","Autor":"keppel","Descricao":"teste"}
-{"Id":1,"Isbn":"9788580631029","Autor":"keppel","Descricao":"testes2"}
+{"Id":1,"Isbn":"9781786463227","Autor":"keppel","Descricao":"Livro muito tecnico, com poucos exemplos praticos."}

@@ -1,1 +1,1 @@
-{"Isbn":"123456","Titulo":"teste","IdUsuario":"1"}
+{"Isbn":"9781786463227","Titulo":"Deployment with Docker","IdUsuario":"1"}
